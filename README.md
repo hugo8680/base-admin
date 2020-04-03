@@ -7,14 +7,15 @@
 
 ## associations
 
-项目|技术栈|地址|演示地址
+project|frameworks|github address|demo address
 :-:|:-:|:-:|:-:
-后台|Spring Boot 2.2.5,MyBatis|[GitHub](https://github.com/hugo8680/base)|暂无
-前台|React,Ant Design V4|[GitHub](https://github.com/hugo8680/base-admin)|暂无
+后台|Spring Boot 2.2.5, MyBatis, Spring Security, JWT Token, MySQL5.7, Redis, etc.|[GitHub](https://github.com/hugo8680/base)|暂无
+前台|React, Ant Design V4, Umi, etc.|[GitHub](https://github.com/hugo8680/base-admin)|暂无
+
+---
 
 ## Environment Prepare
-``~~~~~~~~``
-安装模块
+### Install
 
 ```bash
 npm install
@@ -47,7 +48,6 @@ npm run build
 npm run lint
 ```
 
-代码检查
 ```bash
 npm run lint:fix
 ```
