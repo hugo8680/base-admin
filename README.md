@@ -1,9 +1,19 @@
-# Ant Design Pro
+# Mos Design
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+- 本项目是基于[Ant Design Pro](https://pro.ant.design)v4搭建的后台管理系统脚手架
+- This project is a boilerplate scaffold based on [Ant Design Pro](https://pro.ant.design)v4
+
+---
+
+## associations
+
+项目|技术栈|地址|演示地址
+:-:|:-:|:-:|:-:
+后台|Spring Boot 2.2.5,MyBatis|[GitHub](https://github.com/hugo8680/base)|暂无
+前台|React,Ant Design V4|[GitHub](https://github.com/hugo8680/base-admin)|暂无
 
 ## Environment Prepare
-
+``~~~~~~~~``
 Install `node_modules`:
 
 ```bash
@@ -15,17 +25,14 @@ or
 ```bash
 yarn
 ```
-
-## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
 ### Start project
 
 ```bash
 npm start
+```
+or
+```
+yarn start
 ```
 
 ### Build project
@@ -40,8 +47,7 @@ npm run build
 npm run lint
 ```
 
-You can also use script to auto fix some lint error:
-
+代码检查
 ```bash
 npm run lint:fix
 ```
@@ -54,4 +60,4 @@ npm test
 
 ## More
 
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+UI框架文档 [Ant Design](https://ant.design)
