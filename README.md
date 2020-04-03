@@ -14,7 +14,7 @@
 
 ## Environment Prepare
 ``~~~~~~~~``
-Install `node_modules`:
+安装模块
 
 ```bash
 npm install
